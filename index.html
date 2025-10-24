@@ -12,4 +12,34 @@
     <header>
       <h1>Formulário de Cadastro</h1>
     </header>
+    <main>
+      <form>
+        <fieldset class="informacoes-pessoais">
+          <legend>Informações Pessoais</legend>
+
+          <div>
+            <label for="nome">Nome completo:</label>
+            <input type="text" placeholder="Digite aqui seu nome" id="nome" required>
+          </div>
+
+          <div>
+            <label for="cpf">CPF:</label>
+            <input type="number" placeholder="Digite seu CPF" id="cpf" required>
+          </div>
+
+          <div>
+            <label for="email">E-mail:</label>
+            <input type="email" placeholder="Digite seu e-mail" id="email" required>
+          </div>
+          
+          <div>
+            <label for="senha">Senha:</label>
+            <input type="password" placeholder="Digite uma senha" id="senha" required maxlength="10" minlength="6">
+          </div>
+
+          <div>
+            <label for="data-nascimento">Data de nascimento</label>
+            <input type="date" id="data-nascimento" maxlength="2014-12-31" required>
+          </div>
+
 </html>
