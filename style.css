@@ -1,0 +1,68 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+
+#page {
+    max-width: 120rem;
+    margin-inline: auto;
+}
+
+
+body {
+    font-size: 1.6rem;
+    background: oklch(16.898% 0.06163 277.546);
+    color: #fff;
+}
+
+header {
+    padding-block: 2rem;
+    text-align: center;
+}
+
+fieldset {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 1rem;
+
+    input {
+        display: block;
+        margin-top: .7rem;
+        padding: .5rem;
+        border-radius: 1rem;
+        border: none;
+        color: oklch(20.8% 0.042 265.755); /*muda a cor aq*/
+    }
+
+    input:focus {
+        outline: 2px solid oklch(12.9% 0.042 264.695); /*muda a cor aq*/
+        
+        
+    }
+
+    input::placeholder {
+        color: oklch(44.6% 0.043 257.281); /*muda a cor aq*/
+
+    }
+
+    div {
+        margin-bottom: 1rem;
+    }
+
+    input[type=file]{
+        color: #fff;
+    }
+
+    input[type=checkbox],
+    input[type=radio]{
+        display: inline-block;
+        outline: none;
+    }
